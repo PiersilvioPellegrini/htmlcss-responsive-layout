@@ -41,6 +41,19 @@
         justify-content: center;
 
     }
+
+    .menu{
+        display: none;
+    }
+
+
+    .burger {
+       display: block;
+    }
+
+
+
+
 }
 
 
@@ -89,6 +102,14 @@
     .center {
         justify-content: center;
 
+    }
+
+    .burger {
+        opacity: 0;
+    }
+
+    .menu {
+        opacity: 100%;
     }
 
 }
