@@ -31,6 +31,7 @@
 
     }
 
+
     .colmd2-4 {
         flex-basis: calc(100% / 2);
 
@@ -83,12 +84,18 @@
     }
 
     .collg1-4 {
-        flex-basis: calc(100% / 4);
+        flex-basis: 25%;
     }
 
     .collg2-3 {
         flex-basis: calc((100% / 3) * 2);
 
+    }
+
+
+
+    .collg3-4 {
+        flex-basis: 75%;
     }
 
     .collg2-4 {
@@ -103,13 +110,17 @@
         justify-content: center;
 
     }
-
     .burger {
         display: none;
     }
 
     .menu {
         display: flex;
+    }
+
+    .flex {
+        display: flex;
+
     }
 
 }

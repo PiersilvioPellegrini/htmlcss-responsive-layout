@@ -24,7 +24,7 @@ section {
 }
 
 .main {
-    padding: 0 20px;
+    padding: 0 10px;
     width: 100%;
 }
 
@@ -82,22 +82,39 @@ header {
     padding-bottom: 50px;
 }
 
+
+
+
+
+header p {
+
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: relative;
+    bottom: -10px;
+
+}
+
+.bg-primary-light {
+    background-color: var(--primary-color-light);
+}
+
+.bg-white {
+    background-color: white;
+}
+
 .bg-secondary {
     background-color: var(--secondary-color);
 }
 
-section h2,
 
-section h4 {
-    padding: 30px 0;
-    display: flex;
-    justify-content: center;
 
-}
-
-.aboutus h2 {
-    justify-content: flex-start;
-}
 
 .testimonials .container p {
     margin-bottom: 40px;
@@ -112,29 +129,70 @@ section h4 {
 }
 
 .col {
-    padding: 10px;
+    padding: 15px 10px;
     flex-basis: 100%;
 
 
 }
 
-.card {
-    height: 350px;
-    background-color: yellow;
-    border-radius: 20px;
-    border: 1px solid black;
+.col img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
 }
+
+.card {
+
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+header .card-header {
+    font-size: 5rem;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.card-title h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 10px 0;
+}
+
+.card-body {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 
 button {
     background-color: white;
-
+    display: flex;
+    column-gap: 5px;
     padding: 10px 10px;
     border: none;
-    border-radius: 20px;
-    margin: 10px 0;
-    font-size: 0.7rem;
-    margin-left: 10px;
+    border-radius: 25px;
 
+    font-size: 0.7rem;
+
+}
+
+.header-button {
+    font-size: 1rem;
+    padding: 10px 50px;
+    color: white;
+    background-color: var(--primary-color);
 }
 
 .burger {
@@ -145,8 +203,46 @@ button {
     display: none;
 }
 
+.color-white {
+    color: white;
+}
 
+.color-secondary {
+    color: var(--secondary-color);
+}
 
+.circle{
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.testimonial-img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.testimonial-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+   
+    
+}
 
 
 
