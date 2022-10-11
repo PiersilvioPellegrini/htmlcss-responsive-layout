@@ -97,7 +97,7 @@ header img {
     display: block;
     object-fit: cover;
     position: relative;
-    bottom: -10px;
+    bottom: -20px;
 
 }
 
@@ -206,6 +206,9 @@ button {
     color: white;
 }
 
+.color-primary{
+    color: var(--primary-color);
+}
 .color-secondary {
     color: var(--secondary-color);
 }
