@@ -42,13 +42,13 @@
 
     }
 
-    .menu{
+    .menu {
         display: none;
     }
 
 
     .burger {
-       display: block;
+        display: flex;
     }
 
 
@@ -105,11 +105,11 @@
     }
 
     .burger {
-        opacity: 0;
+        display: none;
     }
 
     .menu {
-        opacity: 100%;
+        display: flex;
     }
 
 }
