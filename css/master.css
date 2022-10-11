@@ -226,7 +226,7 @@ button {
     font-size: 1.5rem;
 }
 
-.small{
+.small {
     font-size: 0.7rem;
 
 }
@@ -281,16 +281,17 @@ button {
 
 }
 
-.specialtext{
+.specialtext {
     font-size: 5.5rem;
     text-align: center;
     color: #FDC15F;
-    
+
 }
 
-.underline{
+.underline {
     text-decoration: underline;
 }
+
 .card-number {
     font-size: 4rem;
     color: var(--secondary-color);
