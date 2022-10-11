@@ -59,7 +59,7 @@ nav .container {
     align-items: center;
     color: white;
     font-size: 0.7rem;
-    opacity: 0%;
+
 
 }
 
@@ -101,6 +101,7 @@ section h4 {
 
 .testimonials .container p {
     margin-bottom: 40px;
+    text-align: center;
 
 }
 
@@ -113,11 +114,11 @@ section h4 {
 .col {
     padding: 10px;
     flex-basis: 100%;
-    
-    
+
+
 }
 
-.card{
+.card {
     height: 350px;
     background-color: yellow;
     border-radius: 20px;
